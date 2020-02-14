@@ -47,7 +47,8 @@ h2 {
 }
 
 h3 {
-  color: #444;
+  /* color: #444; */
+	color: #1A4A45;
   font-size: 14px;
   letter-spacing: 4px;
 }
@@ -176,6 +177,7 @@ nav a {
 }
 .brand a {
   color: #333;
+	/* color: #1C4B47; */
   font-size: 24px;
   font-weight: 700;
   opacity: 1;
@@ -426,13 +428,15 @@ a.icon {
 }
 
 .header-one {
-  background: url('../images/header-bg.jpg') no-repeat;
-  height: 60vh !important;
-  min-height: 520px;
-  padding-top: 150px !important;
+  /*background: url('../images/header-bg.jpg') no-repeat;*/
+	background-color: rgba(181,186,182,0.6);/*#B5BAB6;*/
+  height: 60vh !important; /*40vh*/
+  min-height: 300px;
+  padding-top: 100px !important;
 }
 .header-two {
-  background: url('../images/header-bg.jpg') no-repeat;
+  /* background: url('../images/header-bg.jpg') no-repeat; */
+	background-color: rgba(181,186,182,0.6);/*#B5BAB6;*/
 }
 .header-three {
   background: url('../images/header-three-bg.jpg') no-repeat;
@@ -463,7 +467,8 @@ a.icon {
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
-  background: #141414;
+  /* background: #141414; */
+	background: #1A4A45;
   position: absolute;
   top: 0;
   right: 0;
